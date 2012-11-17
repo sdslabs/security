@@ -12,22 +12,22 @@
 	    $(document).ready(function(){
 		    topbar.showTopbar();
         topbar.setCurrent('disclosure');
-        $("#data").click(function() {
+        $("#data").mouseleave(function() {
           $('#data1').toggle();
         });
-        $("#access").click(function() {
+        $("#access").mouseleave(function() {
           $('#access1').toggle();
         });
-        $("#password").click(function() {
+        $("#password").mouseleave(function() {
           $('#password1').toggle();
         });
-        $("#dc").click(function() {
+        $("#dc").mouseleave(function() {
           $('#dc1').toggle();
         });
-        $("#fb").click(function() {
+        $("#fb").mouseleave(function() {
           $('#fb1').toggle();
         });
-        $("#disclosure").click(function() {
+        $("#disclosure").mouseleave(function() {
           $('#disclosure1').toggle();
         });
 
@@ -91,8 +91,6 @@
         <div class="page-header">
           <h1>How much SDSLabs know me ???<small></small></h1>
         </div>
-        <div class="row">
-          <div class="span14"> 
               <p class="heading">
                 In response to the belief held by handful of people that SDSLabs has a lot of personal information about the students of IITR, we, being a responsible group in the campus, want to clarify a few things to all our users.<p><br><br>
                 <div id="data" class="heading">From where does SDSLabs get information about me?</div><br>
@@ -107,13 +105,13 @@
                 </div><br>
                 <div id="password" class="heading">You know the password I used to register!!!</div><br>
                 <div id="password1" class="answer">
-                 The passwords used by students during regisration on our website are unknown to us and are stored in encrypted form on our database.So even though you register on our site we cannot possibly decrypt your password.<p>
+                 The passwords used by students during regisration on our website are unknown to us and are stored in encrypted form on our database.So even though you register on our site we cannot possibly know your password.<p>
                </div><br>
                 <div id="dc" class="heading">Are you monitoring what I share or download from DC++?</div><br>
                  <div id="dc1" class="answer">
                   DC++ is runs in an open mode, which means it does not need any form of registration. We personally log very little data (mostly chat) on the DC network.Since the actual downloads are P2P (Peer To Peer) its very difficult to track them and they are not being tracked as well.<p>
                 </div><br>
-                <div id="fb" class="heading">The other day I submitted my fb password on your chatbox to use fb chat. Doesnt that make it accessible to you?</div><br>
+                <div id="fb" class="heading">The other day I submitted my facebook password on your chatbox to use facebook chat. Doesn't that make it accessible to you?</div><br>
                 <div id="fb1" class="answer">
                   The concern about SDSLabs chat being integrated with facebook and Gtalk where in users are required to enter their username and password is dubious as the data is sent to facebook/google only and we <b>do not</b> keep its copy with us. They donot share the passwords with us and they use <a href="http://en.wikipedia.org/wiki/HTTP_Secure" >HTTPS </a> to secure all such communications.<p>
                 </div><br>
@@ -122,8 +120,6 @@
                   We want the users to know what ever minimal amount of personal information they have shard with us is kept safe with utmost care and is used in a responsible manner. If anyone feels that their is some vulnerability in the way we handle user's information than they are welcome to<a href="https://sdslabs.co.in/contact"> contact</a> us and disclose the vulnerability to us in a responsible manner.<br>
                 </div><br>
 	         </div>
-        </div>
-      </div>
     </div> <!-- /container -->
   <link type="text/css" href="https://sdslabs.co.in/comet/cometchatcss.php" rel="stylesheet"> 
   <script type="text/javascript" src="https://sdslabs.co.in/comet/cometchatjs.php"></script>
