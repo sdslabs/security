@@ -94,4 +94,10 @@ h2.span {
   border-bottom: 1px solid black;
   font-weight: bold;
 }
+.small {
+  font-size: .7em;
+}
+.stress {
+  font-weight: bold;
+}
       
