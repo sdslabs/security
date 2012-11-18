@@ -58,8 +58,40 @@ h2.span {
 .span {
   font-size: 14px;
 }
-      
-#imp {
-  font-weight: 900;
+.footer{
+  text-align:center;
+  color:#454545;
+  border-top:1px solid rgba(0, 0, 0, 0.15);
+  font-size:13px;
+  height:60px;
+  padding:0px;
+  margin:0px;
+  position:relative;
+}
+.footerlinks{
+  position:absolute;
+  list-style:none;
+  line-height:15px;
+  top:15px;
+  margin:0;
+}
+.footerlinks li{
+  display:inline;
+  margin-right:10px;
+  padding-bottom: 5px;
+}
+.footerlinks li a{
+  text-decoration:none;
+  font-weight:bold;
+  color:#232323;
+  padding-bottom: 5px;
+}
+.footerlinks li a:hover{
+  border-bottom: 1px dashed black;
+}
+.footerlinks li.active {
+  color: black;
+  border-bottom: 1px solid black;
+  font-weight: bold;
 }
       
